@@ -31,8 +31,8 @@
 - 주요 출처 : Precedence Research, Custom Market Insights, Grand View Research, Fortune, TBRC, Mordor, Towards Automotive
 ```
 <p align="center">
-<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/f2f64100-cdbb-4f26-b1e2-605e5b9d33a2" />
-<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/2601a923-78dd-41fd-a9b6-3144f23a3c65" />
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/f2f64100-cdbb-4f26-b1e2-605e5b9d33a2" />
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/2601a923-78dd-41fd-a9b6-3144f23a3c65" />
 </p>
 
 📊 모션제스처 사용사례 분석결과, 다음과 같은 환경에서 **비접촉 제어는 단순 편의가 아니라 필수 요건**임을 확인했습니다.
@@ -57,8 +57,8 @@
 
 ### 📌 예상문제상황 및 대응방안
 <p align="center">
-<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/180b702a-9ff3-4988-9ffb-566040646c5c" />
-<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/3b41c4f0-6257-4462-8f9b-e5d35a124d0a" />
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/180b702a-9ff3-4988-9ffb-566040646c5c" />
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/3b41c4f0-6257-4462-8f9b-e5d35a124d0a" />
 </p>
 
 **비접촉제어 범용 서비스**를 기획하면서 다음과 같은 잠재적 문제를 예상하였고, 이에 대한 보완책을 마련하여 서비스를 완성했습니다.
@@ -73,8 +73,8 @@
 - 주요 출처 : 질병관리청 감염관리 지침 / WHO, CDC 공식 가이드 문서 / 메디칼타임즈, 메디게이트 뉴스 기사 / 클린룸 관련 기업(예: TSI, Honeywell) 백서
 ```
 <p align="center">
-<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/835d6595-6391-41d1-9490-8fc2f9051b1f" />
-<img width="500" height="378" alt="image" src="https://github.com/user-attachments/assets/7441c255-7bae-4fc9-924b-80a93fedd5d2" />
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/835d6595-6391-41d1-9490-8fc2f9051b1f" />
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/7441c255-7bae-4fc9-924b-80a93fedd5d2" />
 </p>
 
 📊 데이터 분석결과
@@ -110,8 +110,8 @@
 - 서비스 이용 시, 사용자는 등록된 얼굴 정보로 인증을 진행합니다. 인증 실패 시 업로드 이미지는 삭제되고, 성공 시 사용자 기반 세션이 발급됩니다. 세션은 일정 시간(30분) 동안 유효하며 이후 재인증이 필요합니다. 
 👉 비접촉 방식으로 사용자 보안 강화, 자동 세션 관리
 <p align="center">
-<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/26a5bcbb-878c-4ffa-8e61-53154096769f" />
-<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/18ffc16f-3882-4821-aef0-efe69d2ce0d9" />
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/26a5bcbb-878c-4ffa-8e61-53154096769f" />
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/18ffc16f-3882-4821-aef0-efe69d2ce0d9" />
 </p>
 
 ### 3. 홈 화면 (트래킹 & 사용자 모션 설정)
@@ -175,8 +175,8 @@
 
 ### 🔒 보안성을 강화하는 얼굴인증 기능 (Face Authentication for Security)
 <p align="center">
-<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/497a36b3-c5f5-40cd-9283-145de01cfc21" />
-<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/f2c8d1c9-fb70-439e-ae1b-7679c678b251" />
+<img width="49%" alt="image" src="https://github.com/user-attachments/assets/497a36b3-c5f5-40cd-9283-145de01cfc21" />
+<img width="49%" alt="image" src="https://github.com/user-attachments/assets/f2c8d1c9-fb70-439e-ae1b-7679c678b251" />
 </p>
 
 - 얼굴인증구조
@@ -188,8 +188,8 @@
 
 <br>
 <p align="center">
-<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/cd01c479-4648-493f-b54a-a66095858874" />
-<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/aca7b283-2805-4c22-911f-2202285e1833" />
+<img width="49%" alt="image" src="https://github.com/user-attachments/assets/cd01c479-4648-493f-b54a-a66095858874" />
+<img width="49%" alt="image" src="https://github.com/user-attachments/assets/aca7b283-2805-4c22-911f-2202285e1833" />
 </p>
 
 - 네트워크 보안
