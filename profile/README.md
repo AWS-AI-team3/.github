@@ -174,27 +174,27 @@
 - AI 서버 ↔ 로컬 컴퓨터 간 정보 단절 문제 해결
 
 ### 🔒 보안성을 강화하는 얼굴인증 기능 (Face Authentication for Security)
-<p align="center">
-<img width="49%" alt="image" src="https://github.com/user-attachments/assets/497a36b3-c5f5-40cd-9283-145de01cfc21" />
-<img width="49%" alt="image" src="https://github.com/user-attachments/assets/f2c8d1c9-fb70-439e-ae1b-7679c678b251" />
-</p>
+
+<img alt="image" src="https://github.com/user-attachments/assets/497a36b3-c5f5-40cd-9283-145de01cfc21" />
 
 - 얼굴인증구조
   - 2단계 얼굴인증구조 : 1단계 detect( 인증가능한 정면 인간 얼굴 여부 확인 - 필터링, 유효성 확인 ) ➡️ 2단계 verify( 사용자 등록 얼굴과 일치 여부 확인 )
   - Rekognition의 처리 호출은 반드시 private subnet에 위치한 EKS 백앤드로직을 거쳐 실행 → API 요청 무단 우회를 방지하고 안정성, 통제력 확보
+
+<img alt="image" src="https://github.com/user-attachments/assets/f2c8d1c9-fb70-439e-ae1b-7679c678b251" />
+  
 - 데이터 처리
   - Presigned URL을 통한 S3 업로드 : 퍼블릭 접근을 모두 차단한 private S3상태를 유지하면서 업로드 작업을 서버 중앙화하지 않고 부하분산
   - UserID 기반 경로 검증
 
-<br>
-<p align="center">
-<img width="49%" alt="image" src="https://github.com/user-attachments/assets/cd01c479-4648-493f-b54a-a66095858874" />
-<img width="49%" alt="image" src="https://github.com/user-attachments/assets/aca7b283-2805-4c22-911f-2202285e1833" />
-</p>
+<img alt="image" src="https://github.com/user-attachments/assets/cd01c479-4648-493f-b54a-a66095858874" />
 
 - 네트워크 보안
   - public 업로드 경로 : 외부 프론트에서 presigned URL을 통해 S3에 즉시 업로드 처리
   - private 관리경로 : EKS ↔ S3는 VPC Endpoint 기반 AWS 내부망 통신 / 민감 작업(삭제·관리)은 인터넷을 거치지 않음, 더불어 NAT 게이트웨이 미사용으로 보안 + 비용 최적화
+
+<img alt="image" src="https://github.com/user-attachments/assets/aca7b283-2805-4c22-911f-2202285e1833" />
+
 - 인증 지속성 : 비접촉식 MFA
   - 로그인을 통한 accessToken과 별도로 관리되는 FaceSession을 발급
   - 비접촉식 MFA 이중인증으로 활용가능 ( Oauth기반 서비스 사용자 로그인 + 얼굴인증기반 기능사용자 로그인 )
