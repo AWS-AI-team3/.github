@@ -145,6 +145,12 @@
 ### 🔸 Front-End
 <img width="674" height="377" alt="image" src="https://github.com/user-attachments/assets/e4719a07-20d6-447d-8dee-afa100b3a2dc" />
 
+- 확장성을 고려한 flutter 프레임워크 이용 & Figma로 UI 디자인
+- 로컬 컴퓨터 제어를 위한 python 스크립트 작성
+- pyautogui를 이용한 마우스 제어 & pyperclip을 이용한 클립보드 접근
+- cv2, MediaPipe를 이용한 손 랜드마크 추출 & pyqt를 이용해 손 랜드마크 오버레이 표시
+- subprocess를 이용한 AWS Bedrock FM(Nova)으로부터 받은 시스템 명령어 실행
+
 ### 🔸 Back-End
 <img width="674" height="380" alt="image" src="https://github.com/user-attachments/assets/8a024a45-60d7-436d-aae0-cc8c5dc62264" />
 
@@ -203,7 +209,8 @@
 <img alt="image" src="https://github.com/user-attachments/assets/63ea1897-2d25-4296-8a38-dc5af152d63f" /><br>
 
 - 실시간 모션 트래킹 기반 손동작 제어
-- 기본 제스처 정의(클릭, 스크롤, 붙여넣기 등) + 사용자 지정 가능
+  - Google MediaPipe Hand Landmarker를 이용한 손 랜드마크 감지
+- 기본 제스처 정의(클릭, 스크롤, 붙여넣기 등) + 동작 지정 가능
 - 딜레이 최소화 & 직관적 사용자 경험 제공
 
 ---
