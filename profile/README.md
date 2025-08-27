@@ -217,9 +217,12 @@
 
 ## ✅ 시연영상
 ### 얼굴인증
-https://github.com/user-attachments/assets/fb0794e0-4c0c-495d-83d5-fe89379bd1ec
+https://github.com/user-attachments/assets/6b715337-470c-41f8-80ae-7c3e913b0252
+
 ### 제스처 인식 & 음성 명령
-https://github.com/user-attachments/assets/ad096548-de4e-4861-9f96-e43a32f74154
+https://github.com/user-attachments/assets/789b7d79-1a83-4530-8752-660ab0c60686
+
+
 
 
 
