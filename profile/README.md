@@ -162,6 +162,10 @@
 ### 🔸 AI
 <img width="673" height="379" alt="image" src="https://github.com/user-attachments/assets/990c642f-6ba0-4477-a375-fdff032772a3" />
 
+- AWS Rekognition의 얼굴 감지와 유사도 검사 기능을 통해 얼굴 인증 기능을 구현
+- AWS Transcribe streaming을 이용한 음성 실시간 전사
+- AWS Bedrock FM(AWS Nova)를 이용한 사용자 명령에 대한 시스템 명령어 변환 + Local Agent를 이용해 사용자 명령의 부족한 정보를 취합
+- AWS SAM을 이용해 람다 배포, API 게이트웨이를 이용해 AI 백엔드 서버 배포
 ---
 
 ## ✅ 주요기능 및 기술적 특징
@@ -169,14 +173,14 @@
 <img alt="image" src="https://github.com/user-attachments/assets/fc15d838-1884-40cd-9018-f560c33d6451" /><br>
 
 - AWS Transcribe Streaming 기반
-- 웹소켓 기반 스트리밍 → 기존 8초 지연 문제 해결
+- 웹소켓 기반 스트리밍 방식 → 기존 8초 지연 문제 해결
 - 오버랩(Overlap) 기법으로 청크 간 단절 보완 → 정확도 + 실시간성 확보
 
 ### 🔄 연계성을 위한 로컬에이전트 기능 (Local Agent for Contextual Connectivity)
 <img alt="image" src="https://github.com/user-attachments/assets/85d3ca5e-1109-42b4-87cf-04756bc021ba" /><br>
 
 - Bedrock 기반 LLM + 로컬 에이전트 동작
-- 로컬 정보(운영체제, 파일 등) 필요 시 → 로컬 에이전트가 보완 후 전달
+- 로컬 정보(운영체제, 파일 경로 등) 필요 시 → 로컬 에이전트가 보완 후 전달
 - AI 서버 ↔ 로컬 컴퓨터 간 정보 단절 문제 해결
 
 ### 🔒 보안성을 강화하는 얼굴인증 기능 (Face Authentication for Security)
