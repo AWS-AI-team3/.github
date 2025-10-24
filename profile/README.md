@@ -1,17 +1,32 @@
 # AWSGBSA : AWS 인공지능 전문인력 양성과정 프로젝트
 ## ✅ 프로젝트 소개 및 성과
-- 🗓️ 프로젝트 기간
-: 2025.08.04 ~ 2025.08.22
+🗓️ 프로젝트 기간
+- 1차 개발(version1) : 2025.08.04 ~ 2025.08.22
+- 2차 개발(version2) : 2025.09.11 ~ 2025.10.18 
 
-- 🏆 프로젝트 성과 : 2025 경기도 AWS 인공지능 전문인력 양성과정 프로젝트 발표회 최우수상(1등) 수상
+🏆 프로젝트 성과 
+- 2025 경기도 AWS 인공지능 전문인력 양성과정 프로젝트 발표회 최우수상 수상 ( 2025.08.22 )
 
   <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/a290fdcc-4c25-4db4-affa-3f4ac22a2c06" />
+- 2025 경기도 AI 청년 CONNECT Tech Day 경기도경제과학진흥원장상 최우수상 수상 ( 2025.10.23 )
+    
+  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/f9cea365-4423-498f-a9e5-00bfc8dff870" />
 
-- 👥 프로젝트 팀원
-  | _이름_ | 박재원 | 박세현 | 이경민 | 허서현 | 황예현 |
+👥 프로젝트 팀원
+- version1 contributors
+
+  | _이름_ | 박재원(PM) | 박세현 | 이경민 | 허서현 | 황예현 |
   |:-----:|:----:|:-----:|:----:|:----:|:-----:|
-  | ___역할___ | FE, 로컬AI | AI | BE, 인프라 | UX/UI디자인 | DS |
+  | ___역할___ | FE, 로컬AI | AI | BE, 아키텍팅 | 디자인 | DS |
   |  | <a href="https://github.com/ashcircle03"><img src="https://avatars.githubusercontent.com/u/113187386?v=4" width="64" height="64"></a> | <a href="https://github.com/sehyun734"><img src="https://avatars.githubusercontent.com/u/101646633?v=4" width="64" height="64"></a> | <a href="https://github.com/rudalsss"><img src="https://avatars.githubusercontent.com/u/122061889?v=4" width="64" height="64"></a> | <a href="https://github.com/navv0"><img src="https://avatars.githubusercontent.com/u/224919441?v=4" width="64" height="64"></a> | <a href="https://github.com/Zio0714"><img src="https://avatars.githubusercontent.com/u/132100220?v=4" width="64" height="64"></a>
+
+- version2 contributors
+
+  | _이름_ | 박재원(PM) | 권민구 | 김성민 | 이경민 | 허서현 | 황예현 |
+  |:-----:|:----:|:-----:|:----:|:----:|:-----:|:-----:|
+  | ___역할___ | FE, 로컬AI | AI | 디자인, FE | BE, 아티텍팅 | IR 자료제작 | 시장분석 |
+  |  | <a href="https://github.com/ashcircle03"><img src="https://avatars.githubusercontent.com/u/113187386?v=4" width="64" height="64"></a> | <a href="https://github.com/kwon-mingoo"><img src="https://avatars.githubusercontent.com/u/75964526?v=4" width="64" height="64"></a> | <a href="https://github.com/Gromiit"><img src="https://avatars.githubusercontent.com/u/167631428?v=4" width="64" height="64"></a> | <a href="https://github.com/rudalsss"><img src="https://avatars.githubusercontent.com/u/122061889?v=4" width="64" height="64"></a> | <a href="https://github.com/navv0"><img src="https://avatars.githubusercontent.com/u/224919441?v=4" width="64" height="64"></a> | <a href="https://github.com/Zio0714"><img src="https://avatars.githubusercontent.com/u/132100220?v=4" width="64" height="64"></a>
+
 
 ---
 
@@ -19,9 +34,12 @@
 저희 서비스의 출발은 영화 **아이언맨**이었습니다.  
 토니 스타크가 조력자 **자비스**를 단순한 **제스처**와 음성으로 제어하는 장면은, “비접촉 제어가 **현실화**된다면 얼마나 **유용할까?**”라는 **영감**을 주었습니다.
 
-![iron-man](https://github.com/user-attachments/assets/136de13e-00e7-4109-b6be-23e865205a1e)
+<p align="center">
+<img width="674" height="380" alt="idea" src="https://github.com/user-attachments/assets/136de13e-00e7-4109-b6be-23e865205a1e" />
+</p>
 
-### 📌 [ 데이터 분석 ] 실생활 적용 사례 & 시장분석
+
+### 📌 데이터 분석 : 실생활 적용 사례 & 시장분석
 비접촉 제어 서비스의 실생활 적용 가능성과 시장성을 검증하기 위해 자체적으로 데이터를 분석했습니다. 데이터를 크롤링 기법을 통해 직접 수집하고, AWS의 Sagemaker를 통해 머신러닝 기반 분석을 진행했습니다.
 
 ```
@@ -35,10 +53,7 @@
 <img width="46%" alt="image" src="https://github.com/user-attachments/assets/2601a923-78dd-41fd-a9b6-3144f23a3c65" />
 </p>
 
-📊 모션제스처 사용사례 분석결과, 다음과 같은 환경에서 **비접촉 제어는 단순 편의가 아니라 필수 요건**임을 확인했습니다.
-- 수술실 : 손이 자유롭지 않은 상황에서 모션/음성 제어로 효율성 향상
-- 클린룸 : 접촉 오염 방지를 위해 비접촉 인터페이스 필수
-- 특수 장비 환경 : 예) Gorilla Glass 기반 기기에서도 장갑 낀 채 제스처 사용 가능
+📊 모션제스처 사용사례 분석결과, 수술실, 클린룸, 특수환경장비 (예) Gorilla Glass 기반 기기) - 다음과 같은 환경에서 **비접촉 제어는 단순 편의가 아니라 필수 요건**임을 확인했습니다.
 
 📊  모션제스처 사업의 성장현황에 대한 분석결과,
 - 시장 규모는 2025년 약 257억 달러에서 → 2034년 약 344억 달러로 성장
@@ -143,6 +158,7 @@
 <img alt="image" src="https://github.com/user-attachments/assets/f328dc10-b74c-4ec1-b9c0-ab268831a72a" />
 
 ### 🔸 Front-End
+
 <img width="674" height="377" alt="image" src="https://github.com/user-attachments/assets/e4719a07-20d6-447d-8dee-afa100b3a2dc" />
 
 - 확장성을 고려한 flutter 프레임워크 이용 & Figma로 UI 디자인
@@ -152,6 +168,7 @@
 - subprocess를 이용한 AWS Bedrock FM(Nova)으로부터 받은 시스템 명령어 실행
 
 ### 🔸 Back-End
+
 <img width="674" height="380" alt="image" src="https://github.com/user-attachments/assets/8a024a45-60d7-436d-aae0-cc8c5dc62264" />
 
 - Java17기반 Springboot 3.3.2 - webclient를 사용하여 외부 AI서버와 통신
@@ -160,12 +177,14 @@
 - DevOps환경을 위한 CI/CD 파이프라인을 구축 : Git webhook으로 트리거 -> Jenkins 빌드 파이프라인 -> Docker image ECR에 저장 -> ArgoCD는 GitOps기반 반자동화 배포
 
 ### 🔸 AI
+
 <img width="673" height="379" alt="image" src="https://github.com/user-attachments/assets/990c642f-6ba0-4477-a375-fdff032772a3" />
 
 - AWS Rekognition의 얼굴 감지와 유사도 검사 기능을 통해 얼굴 인증 기능을 구현
 - AWS Transcribe streaming을 이용한 음성 실시간 전사
 - AWS Bedrock FM(AWS Nova)를 이용한 사용자 명령에 대한 시스템 명령어 변환 + Local Agent를 이용해 사용자 명령의 부족한 정보를 취합
 - AWS SAM을 이용해 람다 배포, API 게이트웨이를 이용해 AI 백엔드 서버 배포
+
 ---
 
 ## ✅ 주요기능 및 기술적 특징
@@ -185,25 +204,28 @@
 
 ### 🔒 보안성을 강화하는 얼굴인증 기능 (Face Authentication for Security)
 
-<img alt="image" src="https://github.com/user-attachments/assets/497a36b3-c5f5-40cd-9283-145de01cfc21" />
+<p>
+  <img width="49%" height="380" alt="image" src="https://github.com/user-attachments/assets/497a36b3-c5f5-40cd-9283-145de01cfc21" />
+  <img width="49%" height="380" alt="image" src="https://github.com/user-attachments/assets/f2c8d1c9-fb70-439e-ae1b-7679c678b251" />
+</p> 
 
 - 얼굴인증구조
   - 2단계 얼굴인증구조 : 1단계 detect( 인증가능한 정면 인간 얼굴 여부 확인 - 필터링, 유효성 확인 ) ➡️ 2단계 verify( 사용자 등록 얼굴과 일치 여부 확인 )
   - Rekognition의 처리 호출은 반드시 private subnet에 위치한 EKS 백앤드로직을 거쳐 실행 → API 요청 무단 우회를 방지하고 안정성, 통제력 확보
-
-<img alt="image" src="https://github.com/user-attachments/assets/f2c8d1c9-fb70-439e-ae1b-7679c678b251" />
   
 - 데이터 처리
   - Presigned URL을 통한 S3 업로드 : 퍼블릭 접근을 모두 차단한 private S3상태를 유지하면서 업로드 작업을 서버 중앙화하지 않고 부하분산
   - UserID 기반 경로 검증
 
-<img alt="image" src="https://github.com/user-attachments/assets/cd01c479-4648-493f-b54a-a66095858874" />
+
+<p height="430" >
+  <img width="49%" height="380" alt="image" src="https://github.com/user-attachments/assets/cd01c479-4648-493f-b54a-a66095858874" />
+  <img width="49%" height="380" alt="image" src="https://github.com/user-attachments/assets/aca7b283-2805-4c22-911f-2202285e1833" />
+</p>
 
 - 네트워크 보안
   - public 업로드 경로 : 외부 프론트에서 presigned URL을 통해 S3에 즉시 업로드 처리
   - private 관리경로 : EKS ↔ S3는 VPC Endpoint 기반 AWS 내부망 통신 / 민감 작업(삭제·관리)은 인터넷을 거치지 않음, 더불어 NAT 게이트웨이 미사용으로 보안 + 비용 최적화
-
-<img alt="image" src="https://github.com/user-attachments/assets/aca7b283-2805-4c22-911f-2202285e1833" />
 
 - 인증 지속성 : 비접촉식 MFA
   - 로그인을 통한 accessToken과 별도로 관리되는 FaceSession을 발급
@@ -219,6 +241,69 @@
 
 ---
 
+## ✅ SIGMA version2
+
+
+<p align="center">
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/ab477a41-d882-41cb-a9f4-7b38f7459672" />
+<img width="46%" alt="image" src="https://github.com/user-attachments/assets/4b2abddb-8945-46b6-99bc-3654daf5e92f" />
+</p>
+
+**SIGMA Version 2**는 태블릿 기반의 모바일 플랫폼 환경으로 확장되었습니다. 📲
+
+태블릿은 우리의 일상 속 다양한 환경에서 사용되며, 정밀함보다는 편의성이 가장 중요한 디바이스로, SIGMA가 제공하는 비접촉 제스처·음성 기반 제어 기술이 가장 큰 효용을 발휘할 수 있는 환경입니다.
+
+이제 SIGMA는 태블릿을 통해 유튜브와 인스타그램 등, 수십억 명이 매일 사용하는 글로벌 모바일 플랫폼 위에서 새로운 사용자 경험을 제공하는 서비스를 목표로 합니다. 🌎✨
+
+### 1️⃣ SIGMA ver2 - AI Intelligence
+<img alt="image" src="https://github.com/user-attachments/assets/8251bc39-284a-4b2d-9fa2-89b9b18cfddf" />
+
+#### 🧠 [Rekognition]
+
+- 다각도 얼굴 분석 로직 고도화
+  : 사용자 얼굴 등록 시 단일 정면 사진만 사용하던 구조에서 정면·좌측·우측 3장의 이미지를 수집하여 Rekognition 컬렉션에 저장 ➡️ 조명, 각도 변화에도 안정적으로 얼굴을 매칭할 수 있게 되어 실시간 환경에서 인식률이 크게 향상됨
+
+- Threshold 조정으로 오인식 최소화 
+  : SimilarityThreshold 파라미터(유사도 임계값)를 기존 80 → 93 이상으로 상향 조정하여 유사 인물간의 잘못된 매칭을 줄이고 보안강도 및 인증 정확도 강화
+
+💬 [ Bedrock ]
+- 명령 히스토리(캐시) 저장기반 명령변환 최적화
+  : 사용자의 반복 명령 패턴을 캐시로 저장해 빠르게 매핑하도록 개선, LLM 호출 빈도를 줄여 평균 응답 지연을 **95.8%** 단축⚡️
+```
+"애플홈페이지 열어줘" 명령에 대한 처리속도
+
+적용전 : 770ms
+적용후 : 32ms
+```
+
+🎙️ [ Transcribe ]
+- Speaker Label 및 노이즈 필터링 강화
+  : ShowSpeakerLabel 활성화로 실생활 소음(가전, TV, 대화 등)에 의한 오탐지를 감소.
+- 필러 단어(Filler Word) 정제 로직 추가
+  : “음”, “저”, “그”, “있잖아” 등 비의미적 발화(Disfluency) 를 자동 제거하는 후처리 파이프라인 구현하여 명령에 대한 핵심 지시어만 추출되어 LLM 전송 전 정제품질 향상
+
+### 2️⃣ SIGMA ver.2 - Server Architecture
+<img alt="image" src="https://github.com/user-attachments/assets/8201ad2d-e695-4d11-8124-0e2c9c41257d" />
+
+- EKS에서 ECS(Fargate Type)로 마이그레이션 
+  : 관리형 인프라로 유지보수 부담 감소시키고, AWS 생태계 서비스(CloudWatch, ALB, Parameter Store 등)와의 통합성을 강화
+  
+- WebSocket Gateway 환경에서 gatewayToken 기반 인증 구조 설계
+  : $connect단계에서 Lambda를 통한 HMAC 검증 로직을 적용하여 비인가 접근 차단, Public endpoint에서도 안전한 실시간 양방향 통신 채널 확보 🔐
+
+### 3️⃣ SIGMA ver2 — Local Platform
+<img alt="image" src="https://github.com/user-attachments/assets/cac84d5d-f819-4523-a600-ea82d70eb087" />
+
+- 플랫폼 변환 : Window app ➡️ IOS app
+태블릿 환경에 최적화된 iOS 플랫폼으로 전환, UX 전반을 재설계
+
+- 커서 안정화, 손떨림 제거
+  - 인간의 생리적 떨림 (Physiological Tremor): 주파수 8-12 Hz, 진폭 0.5-2 mm
+  - 현재 시스템 스펙: 샘플링 10 FPS, 나이퀴스트 주파수 5 Hz, 스무딩 차단 ~3.57 Hz
+  - 지수이동평균(EMA)기반 커서 스무딩과 3프레임 이내 미세 움직임 고정 로직을 적용해 대부분의 손떨림을 제거하고 정밀한 제어를 지원 📳
+
+---
+
 ## ✅ 시연영상
 ### 얼굴인증
 https://github.com/user-attachments/assets/6b715337-470c-41f8-80ae-7c3e913b0252
@@ -226,7 +311,7 @@ https://github.com/user-attachments/assets/6b715337-470c-41f8-80ae-7c3e913b0252
 ### 제스처 인식 & 음성 명령
 https://github.com/user-attachments/assets/789b7d79-1a83-4530-8752-660ab0c60686
 
-
+### SIGMA version2 시연영상
 
 
 
