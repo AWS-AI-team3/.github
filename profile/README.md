@@ -294,13 +294,14 @@
 ### 3️⃣ SIGMA ver2 — Local Platform
 <img alt="image" src="https://github.com/user-attachments/assets/cac84d5d-f819-4523-a600-ea82d70eb087" />
 
-- 플랫폼 변환 : Window app ➡️ IOS app
+- 플랫폼 변환 : Window app ➡️ iOS app
 태블릿 환경에 최적화된 iOS 플랫폼으로 전환, UX 전반을 재설계
 
-- 커서 안정화, 손떨림 제거
-  - 인간의 생리적 떨림 (Physiological Tremor): 주파수 8-12 Hz, 진폭 0.5-2 mm
-  - 현재 시스템 스펙: 샘플링 10 FPS, 나이퀴스트 주파수 5 Hz, 스무딩 차단 ~3.57 Hz
-  - 지수이동평균(EMA)기반 커서 스무딩과 3프레임 이내 미세 움직임 고정 로직을 적용해 대부분의 손떨림을 제거하고 정밀한 제어를 지원 📳
+- 커서 안정화 및 손떨림 제거
+  - 손목 기준 움직임 감지: 손가락만 움직일 때 커서 위치 유지
+  - 지수이동평균(EMA) 스무딩: 가중치 0.3으로 부드러운 커서 이동
+  - 2단계 안정화: 미세 움직임(< 0.006) 5프레임 유지 시 커서 완전 고정, 큰 움직임(> 0.025) 감지 시 즉시 해제
+  - 떨림 방지 영역(DEADZONE 0.11): 제스처 시작 후 일정 범위 내 미세 움직임 무시
 
 ---
 
@@ -312,6 +313,7 @@ https://github.com/user-attachments/assets/6b715337-470c-41f8-80ae-7c3e913b0252
 https://github.com/user-attachments/assets/789b7d79-1a83-4530-8752-660ab0c60686
 
 ### SIGMA version2 시연영상
+https://github.com/user-attachments/assets/5791a228-0ab9-4ae4-adfe-6eee94bde90f
 
 
 
