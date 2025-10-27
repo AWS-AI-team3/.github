@@ -313,7 +313,7 @@ https://github.com/user-attachments/assets/6b715337-470c-41f8-80ae-7c3e913b0252
 https://github.com/user-attachments/assets/789b7d79-1a83-4530-8752-660ab0c60686
 
 ### SIGMA version2 시연영상
-https://github.com/user-attachments/assets/17a696f8-4514-4855-b79c-d4ad25141c59
+<video src="https://github.com/user-attachments/assets/789b7d79-1a83-4530-8752-660ab0c60686" controls width="800"></video>
 
 
 
